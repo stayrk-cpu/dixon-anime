@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dixon Anime</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #120024;
+      color: #eee;
+    }
+    header {
+      background: url('banner.jpg') center/cover no-repeat;
+      padding: 120px 20px;
+      text-align: center;
+    }
+    header div {
+      backdrop-filter: blur(4px);
+      background: rgba(18,0,36,0.55);
+      padding: 40px;
+      border-radius: 20px;
+      display: inline-block;
+    }
+    .card {
+      background: #1b0033;
+      padding: 20px;
+      margin: 30px auto;
+      border-radius: 16px;
+      max-width: 900px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+      gap:20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="logo.png" alt="Logo Dixon Anime" style="width:260px; max-width:90%; border-radius:12px;" />
+      <p style="margin-top:20px; font-size:1.2rem;">Tienda especializada en productos de Anime y Manga</p>
+    </div>
+  </header>
+
+  <div class="card">
+    <h2>Sobre Nosotros</h2>
+    <p>En Dixon Anime encontrarás artículos exclusivos, figuras, mangas, accesorios y más, todo inspirado en tus series favoritas.</p>
+  </div>
+
+  <div class="card">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <img src="banner.jpg" style="width:100%; border-radius:12px;" />
+      <img src="logo.png" style="width:100%; border-radius:12px;" />
+    </div>
+  </div>
+
+  <footer>
+    © 2025 - Dixon Anime. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
